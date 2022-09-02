@@ -1,0 +1,87 @@
+body {
+    
+  background-image: url("../Under-water.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+.pageHeader 
+{
+    text-align: center;
+}
+
+.objects
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.fishImage
+{ 
+    height: 200px;
+    width: 200px;
+}
+
+.fishList 
+{
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.fish 
+{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid orangered;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    
+   
+}
+
+.myFish 
+{
+    align-content: center;
+}
+
+.allTheFish
+{
+    width: 500px;
+}
+
+.allTheMaintenance
+{
+    width: 100px
+}
+
+.maintenance 
+{
+    display: flex; 
+    border: 10px solid orangered;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+
+
+
+.allTheLocations
+{
+    width: 500px;
+}
+
+
+.locationQuotes 
+{
+    display: flex; 
+    border: 10px solid orangered;
+    flex-wrap: wrap;  
+}
+
+.locationsList 
+{
+    border: 10px solid orangered;
+}
